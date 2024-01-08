@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.option{
+    display: flex;
+}
+.option-1{
+    padding:0 10px ;
+    
+}
