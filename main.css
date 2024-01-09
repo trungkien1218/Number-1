@@ -11,6 +11,7 @@
     align-items: center;
     text-align: center;
     height: 56px;
+    margin: 24px 0;
 }
 
 .option {
@@ -38,6 +39,162 @@
     height: 20px;
     margin: 0 10px;
 }
-.BG-resume{
+
+.BG-resume {
     background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section-1 {
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.frame-20 {
+    background-size: cover;
+    background-image: url(img/Frame\ 20.png);
+    max-width: 90%;
+    height: 596px;
+    width: 829px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+.text1-sec1 {
+    font-weight: 400;
+    font-size: 48px;
+   padding-right: 8px;
+}
+
+.text2-sec1 {
+    font-weight: 800;
+    font-size: 48px;
+    padding-right: 8px;
+}
+
+.text3-sec1 {
+    font-weight: 800;
+    font-size: 48px;
+    font-family: Derelaper;
+    padding-right: 8px;
+}
+
+.text4-sec1 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 120px;
+}
+
+.flex-sec1 {
+    display: grid;
+    grid-template: auto/ repeat(2, 1fr);
+    gap: 10px;
+}
+
+.intro {
+    padding-top: 110px;
+}
+
+.four-button {
+    padding-left: 32px;
+}
+
+.section-2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.grid-skills {
+    display: grid;
+    grid-template: auto/ repeat(5, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    color: white;
+}
+
+.text1-sec3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.text2-sec3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.flex-sec3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.text3-sec3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 30px;
+}
+
+.pad-sec3 {
+    padding-bottom: 30px;
+}
+.section-4{
+    padding: 60px  0;
+}
+.grid-sec4 {
+    display: grid;
+    grid-template:auto/repeat(2,1fr) ;
+    gap: 30px;
+}
+.text1-sec4 {
+    font-weight: 400;
+    font-size: 48px;
+   padding: 16px;
+}
+.text2-sec4 {
+    font-weight: 800;
+    font-size: 48px;
+   
+}
+.text3-sec4{
+    padding-top: 20px;
+    font-weight: 400;
+}
+.section-5{
+    background-color: black;
+    color: white;
+}
+.layout-sec5{
+    padding: 20px 0px;
+}
+.text1-sec5{
+    padding-bottom: 28px;
+}
+.text2-sec5{
+    font-size: 32px;
+    font-weight: 700;
+}
+.text3-sec5{
+    font-size: 16px;
+}
+.row-gap{
+    gap:80.55px;
+}
+.text4-sec5{
+    margin: auto 0;
 }
