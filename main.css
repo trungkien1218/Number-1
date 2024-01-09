@@ -67,7 +67,7 @@
 .text1-sec1 {
     font-weight: 400;
     font-size: 48px;
-   padding-right: 8px;
+    padding-right: 8px;
 }
 
 .text2-sec1 {
@@ -153,48 +153,153 @@
 .pad-sec3 {
     padding-bottom: 30px;
 }
-.section-4{
-    padding: 60px  0;
+
+.section-4 {
+    padding: 60px 0;
 }
+
 .grid-sec4 {
     display: grid;
-    grid-template:auto/repeat(2,1fr) ;
+    grid-template: auto/repeat(2, 1fr);
     gap: 30px;
 }
+
 .text1-sec4 {
     font-weight: 400;
     font-size: 48px;
-   padding: 16px;
+    padding: 16px;
 }
+
 .text2-sec4 {
     font-weight: 800;
     font-size: 48px;
-   
+
 }
-.text3-sec4{
+
+.text3-sec4 {
     padding-top: 20px;
     font-weight: 400;
 }
-.section-5{
+
+.section-5 {
     background-color: black;
     color: white;
 }
-.layout-sec5{
+
+.layout-sec5 {
     padding: 20px 0px;
 }
-.text1-sec5{
+
+.text1-sec5 {
     padding-bottom: 28px;
 }
-.text2-sec5{
+
+.text2-sec5 {
     font-size: 32px;
     font-weight: 700;
 }
-.text3-sec5{
+
+.text3-sec5 {
     font-size: 16px;
 }
-.row-gap{
-    gap:80.55px;
+
+.row-gap {
+    gap: 80.55px;
 }
-.text4-sec5{
+
+.text4-sec5 {
     margin: auto 0;
+}
+
+.section-6 {
+    padding: 60px 0;
+}
+
+.text1-sec6 {
+
+    background-color: black;
+    width: 120px;
+    height: 2px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.text2-sec6 {
+    font-weight: 400;
+    color: #404040;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.text3-sec6 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #404040;
+}
+
+.text4-sec6 {
+    font-weight: 600;
+    color: #71717A;
+    padding-bottom: 40px;
+}
+
+.grid-sec6 {
+    display: grid;
+    grid-template: auto/repeat(3, 1fr);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 29px;
+}
+
+.text5-sec6 {
+
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 2px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.text6-sec6 {
+    font-weight: 400;
+    color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.text7-sec6 {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.text8-sec6 {
+    font-weight: 600;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.section-7 {
+    padding: 60px 0;
+}
+
+.input-three {
+    height: 56px;
+    width: 500px;
+    padding: 18px 24px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1.4px solid black;
+}
+
+.input-4 {
+    width: 500px;
+    height: 140px;
+    padding: 18px 24px;
+    border-radius: 4px;
+    border: 1.4px solid black;
+
 }
