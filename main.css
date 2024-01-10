@@ -14,6 +14,10 @@
     margin: 24px 0;
 }
 
+li {
+    list-style: none;
+}
+
 .option {
     display: flex;
     text-decoration: none;
@@ -23,6 +27,7 @@
     padding: 0 10px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .logo {
@@ -136,6 +141,7 @@
 .text2-sec3 {
     font-weight: 600;
     font-size: 16px;
+    color: #D4D4D8;
 }
 
 .flex-sec3 {
@@ -145,6 +151,7 @@
     padding-bottom: 28px;
     margin-left: 24px;
     margin-right: 24px;
+
 }
 
 .text3-sec3 {
@@ -156,7 +163,10 @@
 }
 
 .pad-sec3 {
-    padding-bottom: 30px;
+
+    border: 1px solid #71717A;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .section-4 {
@@ -225,8 +235,8 @@
     background-color: black;
     width: 120px;
     height: 2px;
-    margin-right: 100px;
-    margin-left: 100px;
+    
+    margin-left: 110px;
 }
 
 .text2-sec6 {
@@ -264,8 +274,8 @@
     background-color: rgb(255, 255, 255);
     width: 120px;
     height: 2px;
-    margin-right: 100px;
-    margin-left: 100px;
+    
+    margin-left: 120px;
 }
 
 .text6-sec6 {
@@ -377,38 +387,112 @@ footer {
     font-weight: 700;
     text-align: left;
 }
-.text3-footer{
+
+.text3-footer {
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
-} 
+}
 
-.btn-hamber{
+.btn-hamber {
     display: none;
     position: absolute;
     top: 20px;
     right: 16px;
     max-width: 100%;
+    cursor: pointer;
 }
+
+.frame20-responsive-header {
+    display: none;
+
+
+}
+
 /* Định dạng cho màn hình có kích thước nhỏ hơn 768px */
 @media (max-width: 768px) {
     .btn {
-      flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
-      
-    
+        flex-direction: column;
+        /* Sắp xếp các phần tử theo chiều dọc */
+        position: absolute;
+        top: 100px;
+        left: 50%;
+
     }
-    .btn-hamber{
+
+    .btn-hamber {
+        display: block;
+        z-index: 11;
+        border-radius: 4px;
+    }
+
+    .header-1 {
+        display: block;
+        /*cho btn xuống dòng */
+
+    }
+
+    .option-1 {
+        padding-right: 10px;
+        z-index: 11;
+        background-color: white;
+    }
+
+    .BG-resume {
+        display: none;
+        /* Điều chỉnh vị trí của nút Resume */
+    }
+
+    .frame-20 {
+        display: none;
+    }
+
+    .frame20-responsive-header {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .flex-sec1 {
         display: block;
     }
-    .header-1{
-        display: block;/*cho btn xuống dòng */
+
+    .grid-skills {
+        grid-template: auto/ repeat(2, 1fr);
     }
-    .option {
-      margin-bottom: 10px; /* Tạo khoảng cách giữa các phần tử */
+
+    .disable {
+        display: none;
     }
-    .BG-resume {
-      display: none;/* Điều chỉnh vị trí của nút Resume */
+
+    .flex-sec3 {
+        display: block;
     }
-  }
-  
-  
+
+    .text2-sec3 {
+        padding-top: 30px;
+        padding-bottom: 28px;
+        color: #D4D4D8;
+    }
+
+    .text3-sec4,
+    .text1-sec4,
+    .img1-sec4 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .img1-sec4 {
+        max-width: 100%;
+        height: 374px;
+        width: 343px;
+        display: block;
+        margin: 0 auto;
+    }
+    .grid-sec6{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
