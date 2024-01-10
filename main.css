@@ -232,11 +232,7 @@ li {
 
 .text1-sec6 {
 
-    background-color: black;
-    width: 120px;
-    height: 2px;
-    
-    margin-left: 110px;
+    margin: 0 auto;
 }
 
 .text2-sec6 {
@@ -271,11 +267,7 @@ li {
 
 .text5-sec6 {
 
-    background-color: rgb(255, 255, 255);
-    width: 120px;
-    height: 2px;
-    
-    margin-left: 120px;
+    margin: 0 auto;
 }
 
 .text6-sec6 {
@@ -490,9 +482,50 @@ footer {
         display: block;
         margin: 0 auto;
     }
-    .grid-sec6{
+
+    .grid-sec6 {
         display: flex;
         flex-direction: column;
+    }
+
+    .input-three {
+
+        width: 343px;
+
+    }
+
+    .input-4 {
+        padding: 16px 16px;
+        width: 343px;
+
+    }
+
+    .flex-sec7 {
+        display: block;
+    }
+
+    .section-7 {
+        margin-left: 16px;
+    }
+
+    .text3-sec7,
+    .text4-sec7 {
+        font-size: 28px;
+    }
+
+    .text5-sec7 {
+        font-size: 16px;
+
+    }
+
+    .text6-sec7 {
+        font-size: 20px;
+        
+    }
+
+    .text7-sec7 {
+       margin-right: 20px;
+       margin-left: 20px;
     }
     
 }
