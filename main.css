@@ -382,3 +382,33 @@ footer {
     font-size: 16px;
     color: #FFFFFF;
 } 
+
+.btn-hamber{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    max-width: 100%;
+}
+/* Định dạng cho màn hình có kích thước nhỏ hơn 768px */
+@media (max-width: 768px) {
+    .btn {
+      flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+      
+    
+    }
+    .btn-hamber{
+        display: block;
+    }
+    .header-1{
+        display: block;/*cho btn xuống dòng */
+    }
+    .option {
+      margin-bottom: 10px; /* Tạo khoảng cách giữa các phần tử */
+    }
+    .BG-resume {
+      display: none;/* Điều chỉnh vị trí của nút Resume */
+    }
+  }
+  
+  
