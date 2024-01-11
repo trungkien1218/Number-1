@@ -386,7 +386,7 @@ footer {
     color: #FFFFFF;
 }
 
-.btn-hamber {
+.nav-trigger {
     display: none;
     position: absolute;
     top: 20px;
@@ -400,25 +400,58 @@ footer {
 
 
 }
-
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1;
+   
+  }
 /* Định dạng cho màn hình có kích thước nhỏ hơn 768px */
 @media (max-width: 768px) {
-    .btn {
+    header .main-nav1 {
         flex-direction: column;
         /* Sắp xếp các phần tử theo chiều dọc */
         position: absolute;
-        top: 100px;
-        left: 50%;
-
+        top: 0;
+        left: 0;
+        z-index: 11;
+        padding-top: 50px;
+        height: 100%;
+        width: 300px;
+        background-color: white;
+        
+    }
+    header .main-nav{
+        display: none;
+    }
+    ul li {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    .overlay{
+        display: block;
+        cursor: pointer;
+    }
+    header .main-nav.show {
+        display: block;
     }
 
-   
+    
 
-   
-
-    .btn-hamber {
+    .nav-trigger {
         display: block;
-        z-index: 11;
+
         border-radius: 4px;
     }
 
@@ -432,6 +465,7 @@ footer {
         padding-right: 10px;
         z-index: 11;
         background-color: white;
+        padding-left: 0;
     }
 
     .BG-resume {
@@ -531,5 +565,6 @@ footer {
         margin-right: 20px;
         margin-left: 20px;
     }
+    
 
 }

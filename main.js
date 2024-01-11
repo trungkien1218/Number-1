@@ -1,10 +1,13 @@
-let hamberger = document.querySelector('.btn-hamber');
-let btnDisplayBlock = document.querySelector('.btn');
-let btn = document.querySelector('.btn-primary');
-let ul = document.querySelector('ul.option.btn')
+let navTrigger = document.querySelector('.nav-trigger');
+let mainNav = document.querySelector('.main-nav');
+let overlay = document.querySelector('.overlay');
 
-hamberger.addEventListener('click', function () {
-    hamberger.classList.toggle(btn).inner
-});
+navTrigger.addEventListener('click', function () {
+    mainNav.classList.add('show')
+   
+})/*bật*/ 
 
-hamberger.appendChild(ul);
+
+overlay.addEventListener('click', function () {
+     mainNav.classList.remove('show') 
+})/*tắt*/
