@@ -564,6 +564,11 @@ footer {
         margin-right: 20px;
         margin-left: 20px;
     }
-    
+    .oder1{
+        order: 1;
+    }
+    .oder2{
+        order: 2;
+    }
 
 }
