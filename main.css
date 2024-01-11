@@ -412,6 +412,10 @@ footer {
 
     }
 
+   
+
+   
+
     .btn-hamber {
         display: block;
         z-index: 11;
@@ -520,12 +524,12 @@ footer {
 
     .text6-sec7 {
         font-size: 20px;
-        
+
     }
 
     .text7-sec7 {
-       margin-right: 20px;
-       margin-left: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
-    
+
 }
