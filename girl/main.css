@@ -133,12 +133,6 @@ li {
     padding-bottom: 120px;
     color: #71717A;
 }
-
-.img1-sec1 {
-    max-width: 100%;
-    height: auto;
-}
-
 .flex-sec1 {
     display: grid;
     grid-template: auto/ repeat(2, 1fr);
@@ -150,9 +144,26 @@ li {
 }
 
 .four-button {
-    padding-left: 32px;
+    padding:18px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 4px ;
+    margin-right: 28px;
+    color: black;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
 }
-
+.four-button:hover{
+    background-color: rgb(0, 0, 0);
+    border-image: 2px solid white;
+    color: #FFFFFF;
+}
+.img1-sec1 {
+    max-width: 100%;
+    height: auto;
+    
+}
 .section-2 {
     margin-top: 60px;
     margin-bottom: 60px;
