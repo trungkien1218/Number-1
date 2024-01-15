@@ -150,12 +150,13 @@ li {
     border: 1px solid black;
     margin: auto 0;
     padding-top: 37px;
+    max-width: 100%;
 }
 
-.tex6-sec2 :hover .text5-sec1 {
+.tex6-sec2 :hover  {
     color: white;
     background-color: black;
-}     
+}
 
 .flex-sec1 {
     display: grid;
@@ -187,13 +188,11 @@ li {
 
 .img11-sec1 {
     font-size: 56px;
-    color: black;
+    padding: 1px;
+    background-color: #FFFFFF;
 }
 
-.img11-sec1:hover {
-    background-color: black;
-    color: white;
-}
+
 
 
 .img12-sec1 {
