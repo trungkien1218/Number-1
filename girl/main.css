@@ -133,6 +133,30 @@ li {
     padding-bottom: 120px;
     color: #71717A;
 }
+
+.text5-sec1 {
+    font-family: extra-bold;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 32px;
+}
+
+.tex6-sec2 {
+    height: 186px;
+    width: 186px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: auto 0;
+    padding-top: 37px;
+}
+
+.tex6-sec2 :hover .text5-sec1 {
+    color: white;
+    background-color: black;
+}     
+
 .flex-sec1 {
     display: grid;
     grid-template: auto/ repeat(2, 1fr);
@@ -144,26 +168,68 @@ li {
 }
 
 .four-button {
-    padding:18px;
+    padding: 18px;
     background-color: #FFFFFF;
     border: 1px solid black;
-    border-radius: 4px ;
+    border-radius: 4px;
     margin-right: 28px;
     color: black;
     cursor: pointer;
     width: 20px;
     height: 20px;
 }
-.four-button:hover{
+
+.four-button:hover {
     background-color: rgb(0, 0, 0);
     border-image: 2px solid white;
     color: #FFFFFF;
 }
-.img1-sec1 {
-    max-width: 100%;
-    height: auto;
-    
+
+.img11-sec1 {
+    font-size: 56px;
+    color: black;
 }
+
+.img11-sec1:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.img12-sec1 {
+    background-image: url(img/nest-black.png);
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    max-width: 100%;
+}
+
+.img12-sec1:hover {
+    background-image: url(img/nest-white.png);
+    background-color: #000;
+}
+
+.img13-sec1 {
+    background-image: url(img/socket-blackt.png);
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    max-width: 100%;
+}
+
+.img13-sec1:hover {
+    background-image: url(img/socket-white.png);
+    background-color: #000;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+
 .section-2 {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -472,7 +538,7 @@ footer {
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-radius: 2px;
-  
+
 }
 
 .frame20-responsive-header {
