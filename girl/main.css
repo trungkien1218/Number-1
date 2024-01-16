@@ -3,6 +3,9 @@
     margin: 0;
     font-family: sora;
     line-height: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
 }
 
 @font-face {
@@ -85,7 +88,10 @@ li {
     margin-bottom: 60px;
 }
 
-
+.img1-sec1 {
+    max-width: 100%;
+    height: auto;
+}
 
 .text1-sec1 {
     font-weight: 400;
@@ -110,6 +116,22 @@ li {
     font-family: extra-bold;
 }
 
+.text222-sec1 {
+    font-weight: 800;
+    font-size: 48px;
+    color: white;
+    font-family: extra-bold;
+    padding-left: 16px;
+}
+
+.text111-sec1 {
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    font-family: regular;
+
+}
+
 .text22-sec3 {
     font-weight: 800;
     font-size: 48px;
@@ -130,8 +152,9 @@ li {
 .text4-sec1 {
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 120px;
+    margin-bottom: 74px;
     color: #71717A;
+
 }
 
 .text5-sec1 {
@@ -141,6 +164,8 @@ li {
     text-align: center;
     color: black;
     padding-top: 32px;
+    background-color: white;
+
 }
 
 .tex6-sec2 {
@@ -149,13 +174,21 @@ li {
     border-radius: 4px;
     border: 1px solid black;
     margin: auto 0;
-    padding-top: 37px;
+    cursor: pointer;
     max-width: 100%;
 }
 
-.tex6-sec2 :hover  {
+.tex6-sec2 :hover .text5-sec1 {
     color: white;
     background-color: black;
+}
+
+.tex6-sec2 :hover .img11-sec1 {
+    border: 1px solid black;
+}
+
+.tex6-sec2:hover {
+    background-color: #000;
 }
 
 .flex-sec1 {
@@ -168,16 +201,20 @@ li {
     padding-top: 110px;
 }
 
+.flex11-sec1 {
+    display: flex;
+    gap: 32px;
+}
+
 .four-button {
-    padding: 18px;
     background-color: #FFFFFF;
     border: 1px solid black;
     border-radius: 4px;
-    margin-right: 28px;
     color: black;
     cursor: pointer;
-    width: 20px;
-    height: 20px;
+    height: 56px;
+    width: 56px;
+    text-align: center;
 }
 
 .four-button:hover {
@@ -190,44 +227,16 @@ li {
     font-size: 56px;
     padding: 1px;
     background-color: #FFFFFF;
-}
-
-
-
-
-.img12-sec1 {
-    background-image: url(img/nest-black.png);
-    background-size: cover;
-    width: 56px;
-    height: 56px;
-    max-width: 100%;
-}
-
-.img12-sec1:hover {
-    background-image: url(img/nest-white.png);
-    background-color: #000;
-}
-
-.img13-sec1 {
-    background-image: url(img/socket-blackt.png);
-    background-size: cover;
-    width: 56px;
-    height: 56px;
-    max-width: 100%;
-}
-
-.img13-sec1:hover {
-    background-image: url(img/socket-white.png);
-    background-color: #000;
+    margin-top: 37px;
 }
 
 .center {
     margin: 0 auto;
     text-align: center;
     align-items: center;
+    max-width: 100%;
+    height: 100%
 }
-
-
 
 .section-2 {
     margin-top: 60px;
@@ -351,9 +360,7 @@ li a:hover {
     font-size: 16px;
 }
 
-.row-gap {
-    gap: 80.55px;
-}
+.row-gap {}
 
 .text4-sec5 {
     margin: auto 0;
@@ -426,6 +433,12 @@ li a:hover {
     padding: 60px 0;
 }
 
+.text11-sec7 {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 24px;
+}
+
 .input-three {
     height: 56px;
     width: 500px;
@@ -441,7 +454,13 @@ li a:hover {
     padding: 18px 24px;
     border-radius: 4px;
     border: 1.4px solid black;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
+}
+
+.flex11-sec7 {
+    display: flex;
+    gap: 24px;
 }
 
 .text1-sec7 {
@@ -452,9 +471,12 @@ li a:hover {
     background-color: black;
     color: white;
     text-align: center;
-    margin-right: 24px;
     font-weight: 600;
     font-size: 20px;
+}
+
+.text12-sec7 {
+    padding-bottom: 60px;
 }
 
 .flex-sec7 {
@@ -723,6 +745,14 @@ footer {
 
     .oder2 {
         order: 2;
+    }
+
+    .text11-sec7 {
+        display: block;
+    }
+
+    .text1-sec7 {
+        margin-bottom: 20px;
     }
 
 }
