@@ -96,6 +96,7 @@ li {
 .img1-sec1 {
     max-width: 100%;
     height: auto;
+    width: 796px;
 }
 
 .text1-sec1 {
@@ -389,6 +390,16 @@ p {
     margin: auto 0;
 }
 
+.grid1-sec5 {
+    display: grid;
+    grid-template: auto/ repeat(2, 1fr);
+    gap: 40px;
+}
+
+.on-sec5 {
+    display: none;
+}
+
 .section-6 {
     padding: 60px 0;
 }
@@ -437,9 +448,11 @@ p {
     border-radius: 20px;
     cursor: pointer;
 }
-.grid-sec6 :hover p{
+
+.grid-sec6 :hover p {
     color: #FFFFFF;
-} 
+}
+
 .text5-sec6 {
 
     margin: 0 auto;
@@ -619,6 +632,8 @@ footer {
     z-index: 1;
 }
 
+
+
 /* Định dạng cho màn hình có kích thước nhỏ hơn 576px */
 @media (max-width: 576px) {
     .grid1-sec1 {
@@ -627,12 +642,25 @@ footer {
     }
 
     .oder1 {
-        display: block;
+        order: 1;
     }
 
     .oder2 {
+        order: 2;
+    }
+
+    .grid1-sec5 {
         display: block;
     }
+
+    .on-sec5 {
+        display: block;
+    }
+
+    .off-sec5 {
+        display: none;
+    }
+
 }
 
 /* Định dạng cho màn hình có kích thước nhỏ hơn 768px */
@@ -701,13 +729,7 @@ footer {
         flex-direction: column;
     }
 
-    .oder1 {
-        display: block;
-    }
 
-    .oder2 {
-        display: block;
-    }
 
     .frame-20 {
         display: none;
@@ -827,12 +849,24 @@ footer {
         margin-bottom: 20px;
     }
 
-    .oder1-sec1 {
+    .oder1 {
         order: 1;
     }
 
-    .oder2-sec1 {
+    .oder2 {
         order: 2;
+    }
+
+    .grid1-sec5 {
+        display: block;
+    }
+
+    .on-sec5 {
+        display: block;
+    }
+
+    .off-sec5 {
+        display: none;
     }
 
 }
@@ -859,6 +893,19 @@ footer {
     .intro {
         padding-top: 0;
     }
+
+    .grid1-sec5 {
+        display: block;
+    }
+
+    .on-sec5 {
+        display: block;
+    }
+
+    .off-sec5 {
+        display: none;
+    }
+
 }
 
 /* Định dạng cho màn hình có kích thước nhỏ hơn 1200px */
@@ -870,4 +917,6 @@ footer {
     .disable {
         display: none;
     }
+
+
 }
