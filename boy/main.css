@@ -93,11 +93,7 @@ li {
     grid-template: auto/ repeat(2, 1fr);
 }
 
-.img1-sec1 {
-    max-width: 100%;
-    height: auto;
-    width: 796px;
-}
+.img1-sec1 {}
 
 .text1-sec1 {
     font-weight: 400;
@@ -481,6 +477,12 @@ p {
     padding: 60px 0;
 }
 
+.grid-sec7 {
+    display: grid;
+    grid-template: auto/ repeat(2, 1fr);
+    gap: 20px;
+}
+
 .text11-sec7 {
     margin-bottom: 20px;
     display: flex;
@@ -563,9 +565,7 @@ p {
 
 }
 
-.text7-sec7 {
-    padding: 66px 0;
-}
+.text7-sec7 {}
 
 footer {
     background-color: black;
@@ -661,10 +661,34 @@ footer {
         display: none;
     }
 
+    .img1-sec1,
+    .text7-sec7 {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .text11-sec7 {
+        display: block;
+    }
+    .text1-sec7{
+        margin-bottom: 20px;
+    }
+
+    
 }
 
 /* Định dạng cho màn hình có kích thước nhỏ hơn 768px */
 @media (max-width: 768px) {
+    .text11-sec7{
+       justify-content: center;
+       padding-bottom: 20px;
+    }
+    .img1-sec1 {
+        text-align: center;
+        align-items: center;
+    }
+
     header .main-nav1 {
         flex-direction: column;
         /* Sắp xếp các phần tử theo chiều dọc */
@@ -793,17 +817,30 @@ footer {
         flex-direction: column;
     }
 
+    .igrid-sec7 {
+        text-align: center;
+        align-items: center;
+        margin: auto auto;
+    }
+
     .input-three {
-
-        width: 343px;
-
+        width: 500px;
     }
 
     .input-4 {
         padding: 16px 16px;
-        width: 343px;
+        width: 500px;
 
     }
+
+    .where {
+        max-width: 100%;
+        margin: 0 auto;
+
+        align-items: center;
+    }
+
+
 
     .flex-sec7 {
         display: block;
@@ -826,27 +863,6 @@ footer {
     .text6-sec7 {
         font-size: 20px;
 
-    }
-
-    .text7-sec7 {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .oder1 {
-        order: 1;
-    }
-
-    .oder2 {
-        order: 2;
-    }
-
-    .text11-sec7 {
-        display: block;
-    }
-
-    .text1-sec7 {
-        margin-bottom: 20px;
     }
 
     .oder1 {
@@ -904,6 +920,23 @@ footer {
 
     .off-sec5 {
         display: none;
+    }
+
+    .grid-sec7 {
+        display: block;
+    }
+
+    .img1-sec1,
+    .text11-sec7,
+    .text7-sec7 {
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .flex-sec7 {
+        text-align: center;
+        align-items: center;
     }
 
 }
