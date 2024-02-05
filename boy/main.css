@@ -93,8 +93,6 @@ li {
     grid-template: auto/ repeat(2, 1fr);
 }
 
-.img1-sec1 {}
-
 .text1-sec1 {
     font-weight: 400;
     font-size: 48px;
@@ -156,7 +154,6 @@ li {
     font-weight: 400;
     margin-bottom: 74px;
     color: #71717A;
-
 }
 
 .text5-sec1 {
@@ -301,11 +298,9 @@ li a:hover {
 }
 
 .pad-sec3 {
-
     border: 1px solid #71717A;
     border-radius: 10px;
     margin-bottom: 20px;
-
 }
 
 p {
@@ -578,8 +573,6 @@ footer {
     color: white;
     text-align: center;
     padding-top: 24px;
-
-
 }
 
 .text2-footer {
