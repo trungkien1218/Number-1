@@ -738,6 +738,12 @@ justify-content: center;
         justify-content: center;
         padding-bottom: 40px;
     }
+    .text1-sec4,
+    .text2-sec4,
+    .text111-sec1,
+    .text222-sec1 {
+        font-size: 48px;
+    }
 }
 @media (min-width: 1400px){
     .container{
