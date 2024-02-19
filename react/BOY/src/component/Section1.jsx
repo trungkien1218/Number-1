@@ -6,7 +6,6 @@ const Section1 = () => {
   const handleHover = (e) => {
     setHovered(e);
   };
-
   const handleMouseLeave = () => {
     setHovered(null);
   };
@@ -15,7 +14,7 @@ const Section1 = () => {
       <div className='container'>
         <div className='flex1-sec1'>
           <div className='img123-sec1'>
-            <img src="/img/main.png" alt=""/>
+            <img src="/img/main.png" alt="" />
           </div>
           <div class="intro center">
             <p><span class="text1-sec1">Hello I'am</span> <span class="text2-sec1">Evren Shah.</span></p>
@@ -25,7 +24,6 @@ const Section1 = () => {
               industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it to specimen book.</p>
             <div class="flex11-sec1 ">
-
               <div
                 className={hovered === 1 ? 'hovered' : ' four-button'}
                 onMouseEnter={() => handleHover(1)}
@@ -36,7 +34,6 @@ const Section1 = () => {
                     d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
                 </svg>
               </div>
-
               <div
                 className={hovered === 2 ? 'hovered' : ' four-button'}
                 onMouseEnter={() => handleHover(2)}
@@ -59,7 +56,6 @@ const Section1 = () => {
                     d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
                 </svg>
               </div>
-
               <div
                 className={hovered === 4 ? 'hovered' : ' four-button'}
                 onMouseEnter={() => handleHover(4)}
