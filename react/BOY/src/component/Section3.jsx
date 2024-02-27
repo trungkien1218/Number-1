@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './main.css/'
-
+                   
 const Section3 = () => {
     const [hoversec3, setHoversec3] = useState(null)
 
@@ -13,7 +13,7 @@ const Section3 = () => {
     };
     return (
         <>
-            <div style={{ backgroundColor: 'black', color: '#FFFFFF' }}>
+            <div style={{ backgroundColor: 'black', color: '#FFFFFF' }} >
                 <div class="container">
                     <div className='text111-sec3'><span class="text11-sec3">My</span> <span
                         class="text22-sec3">Experience</span>
