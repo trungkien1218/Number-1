@@ -16,14 +16,14 @@ const Section1 = () => {
           <div className='img123-sec1'>
             <img src="/img/main.png" alt="" />
           </div>
-          <div class="intro center">
-            <p><span class="text1-sec1">Hello I'am</span> <span class="text2-sec1">Evren Shah.</span></p>
-            <p><span class="text2-sec1">Frontend</span> <span class="text3-sec1">Developer</span></p>
-            <span class="text1-sec1">Based In</span> <span class="text2-sec1">India</span>
-            <p class="text4-sec1">I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting
+          <div className="intro center">
+            <p><span className="text1-sec1">Hello I'am</span> <span class="text2-sec1">Evren Shah.</span></p>
+            <p><span className="text2-sec1">Frontend</span> <span class="text3-sec1">Developer</span></p>
+            <span className="text1-sec1">Based In</span> <span class="text2-sec1">India</span>
+            <p className="text4-sec1">I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it to specimen book.</p>
-            <div class="flex11-sec1 ">
+            <div className="flex11-sec1 ">
               <div
                 className={hovered === 1 ? 'hovered' : ' four-button'}
                 onMouseEnter={() => handleHover(1)}

@@ -14,18 +14,18 @@ const Section2 = () => {
         <>
             <div className='container'>
                 <div>
-                    <div style={{ textAlign: 'center', padding: '20px', margin: '20px' }}><span class="text1-sec1">My</span> <span
-                        class="text2-sec1">Skills</span></div>
+                    <div style={{ textAlign: 'center', padding: '20px', margin: '20px' }}><span className="text1-sec1">My</span> <span
+                        className="text2-sec1">Skills</span></div>
                 </div>
-                <div class="flex1-sec2">
-                    <div class="grid-skills ">
+                <div className="flex1-sec2">
+                    <div className="grid-skills ">
                         <div class='tex6-sec2'
                             className={hover === 1 ? 'hover' : ' tex6-sec2'}
                             onMouseEnter={() => handleHover(1)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div class="center">
-                                <img src="/img/git.png" alt="" class="img11-sec1" />
+                            <div className="center">
+                                <img src="/img/git.png" alt="" className="img11-sec1" />
                                 <p>Git</p>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const Section2 = () => {
                             onMouseEnter={() => handleHover(2)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div class="center"><img src="/img/js.png" alt="" class="img11-sec1" />
+                            <div className="center"><img src="/img/js.png" alt="" className="img11-sec1" />
                                 <p>Javascript</p>
                             </div>
 
@@ -44,7 +44,7 @@ const Section2 = () => {
                             onMouseEnter={() => handleHover(3)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div class="center"><img src="/img/sass.png" alt="" class="img11-sec1" />
+                            <div className="center"><img src="/img/sass.png" alt="" className="img11-sec1" />
                                 <p>Sass/Scss</p>
                             </div>
 
@@ -54,7 +54,7 @@ const Section2 = () => {
                             onMouseEnter={() => handleHover(4)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div class="center"><img src="/img/nest-black.png" alt="" class="img11-sec1" />
+                            <div className="center"><img src="/img/nest-black.png" alt="" className="img11-sec1" />
                                 <p>Nest.Js</p>
                             </div>
 
@@ -64,21 +64,21 @@ const Section2 = () => {
                             onMouseEnter={() => handleHover(5)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div class="center">
-                                <img src="/img/storybook-black.png" alt="" class="img11-sec1" />
+                            <div className="center">
+                                <img src="/img/storybook-black.png" alt="" className="img11-sec1" />
                                 <p>Storybook</p>
                             </div>
 
                         </div>
                     </div>
-                    <div class="grid-skills">
+                    <div className="grid-skills">
                         <div class="tex6-sec2"
                             className={hover === 6 ? 'hover' : ' tex6-sec2'}
                             onMouseEnter={() => handleHover(6)}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <div class="center">
-                                <img src="/img/nest-black.png" alt="" class="img11-sec1" />
+                            <div className="center">
+                                <img src="/img/nest-black.png" alt="" className="img11-sec1" />
                                 <p >Nest.Js</p>
                             </div>
                         </div>
@@ -86,8 +86,8 @@ const Section2 = () => {
                             className={hover === 7 ? 'hover' : ' tex6-sec2'}
                             onMouseEnter={() => handleHover(7)}
                             onMouseLeave={handleMouseLeave} >
-                            <div class="center">
-                                <img src="/img/git.png" alt="" class="img11-sec1" />
+                            <div className="center">
+                                <img src="/img/git.png" alt="" className="img11-sec1" />
                                 <p>Git</p>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const Section2 = () => {
                             onMouseEnter={() => handleHover(8)}
                             onMouseLeave={handleMouseLeave} >
                             <div class="center">
-                                <img src="/img/storybook-black.png" alt="" class="img11-sec1" />
+                                <img src="/img/storybook-black.png" alt="" className="img11-sec1" />
                                 <p>Storybook</p>
                             </div>
 
@@ -106,7 +106,7 @@ const Section2 = () => {
                             onMouseEnter={() => handleHover(9)}
                             onMouseLeave={handleMouseLeave} >
                             <div class="center">
-                                <img src="/img/socket-blackt.png" alt="" class="img11-sec1" />
+                                <img src="/img/socket-blackt.png" alt="" className="img11-sec1" />
                                 <p>Socket.Io</p>
                             </div>
                         </div>
@@ -114,8 +114,8 @@ const Section2 = () => {
                             className={hover === 10 ? 'hover' : ' tex6-sec2'}
                             onMouseEnter={() => handleHover(10)}
                             onMouseLeave={handleMouseLeave} >
-                            <div class="center">
-                                <img src="/img/sass.png" alt="" class="img11-sec1" />
+                            <div className="center">
+                                <img src="/img/sass.png" alt="" className="img11-sec1" />
                                 <p>Sass/Scss</p>
                             </div>
 

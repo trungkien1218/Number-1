@@ -14,25 +14,25 @@ const Section3 = () => {
     return (
         <>
             <div style={{ backgroundColor: 'black', color: '#FFFFFF'}} >
-                <div class="container">
-                    <div className='text111-sec3'><span class="text11-sec3">My</span> <span
-                        class="text22-sec3">Experience</span>
+                <div className="container">
+                    <div className='text111-sec3'><span className="text11-sec3">My</span> <span
+                        className="text22-sec3">Experience</span>
                     </div>
                     <div
                         className={hoversec3 === 1 ? 'hoversec3' : 'pad-sec3'}
                         onMouseEnter={() => handleHover(1)}
                         onMouseLeave={handleMouseLeave}>
                         <div>
-                            <div class="flex-sec3">
+                            <div className="flex-sec3">
                                 <div className='flex1-sec3'>
                                     <div className='text12-sec'>
                                         <img src="img/google.png" alt="" />
                                     </div>
-                                    <span class="text1-sec3">Lead Software Engineer at Google</span>
+                                    <span className="text1-sec3">Lead Software Engineer at Google</span>
                                 </div>
-                                <p class="text2-sec3">Nov 2019 - Present</p>
+                                <p className="text2-sec3">Nov 2019 - Present</p>
                             </div>
-                            <p class="text3-sec3">As a Senior Software Engineer at Google, I played a pivotal role in developing
+                            <p className="text3-sec3">As a Senior Software Engineer at Google, I played a pivotal role in developing
                                 innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of
                                 engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user
                                 experiences for millions of users worldwide.</p>
@@ -42,14 +42,14 @@ const Section3 = () => {
                         onMouseEnter={() => handleHover(2)}
                         onMouseLeave={handleMouseLeave}>
                         <div>
-                            <div class="flex-sec3">
+                            <div className="flex-sec3">
                                 <div className='flex1-sec3'>
                                     <div className='text12-sec'><img src="img/youtube.png" alt="" /></div>
-                                    <span class="text1-sec3">Software Engineer at Youtube </span>
+                                    <span className="text1-sec3">Software Engineer at Youtube </span>
                                 </div>
-                                <p class="text2-sec3">Jan 2017 - Oct 2019</p>
+                                <p className="text2-sec3">Jan 2017 - Oct 2019</p>
                             </div>
-                            <p class="text3-sec3">At Youtube, I served as a Software Engineer, focusing on the design and
+                            <p className="text3-sec3">At Youtube, I served as a Software Engineer, focusing on the design and
                                 implementation of backend systems for the social media giant's dynamic platform. Working on
                                 projects
                                 that involved large-scale data processing and user engagement features, I leveraged my expertise
@@ -61,14 +61,14 @@ const Section3 = () => {
                         onMouseEnter={() => handleHover(3)}
                         onMouseLeave={handleMouseLeave}>
                         <div>
-                            <div class="flex-sec3">
+                            <div className="flex-sec3">
                                 <div className='flex1-sec3'>
                                     <div className='text12-sec'><img src="img/apple.png" alt="" /></div>
-                                    <span class="text1-sec3">Junior Software Engineer at Apple </span>
+                                    <span className="text1-sec3">Junior Software Engineer at Apple </span>
                                 </div>
-                                <p class="text2-sec3">Jan 2016 - Dec 2017 </p>
+                                <p className="text2-sec3">Jan 2016 - Dec 2017 </p>
                             </div>
-                            <p class="text3-sec3">During my tenure at Apple, I held the role of Software Architect, where I
+                            <p className="text3-sec3">During my tenure at Apple, I held the role of Software Architect, where I
                                 played a
                                 key role in shaping the architecture of mission-critical software projects. Responsible for
                                 designing scalable and efficient systems, I provided technical leadership to a cross-functional

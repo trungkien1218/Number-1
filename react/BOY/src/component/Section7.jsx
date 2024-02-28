@@ -13,16 +13,15 @@ const Section7 = () => {
     return (
         <>
             <div className='container'>
-                <div class="grid-sec7">
-                    <div class=" img1-sec1">
-                        <div><input type="text" placeholder="Your name" class="input-three" /></div>
-                        <div><input type="text" placeholder="Email" class="input-three" /></div>
-                        <div><input type="text" placeholder="Your website (If exists) " class="input-three" /></div>
-                        <div><input type="text" placeholder="How can I help?*" class="input-4" /></div>
+                <div className="grid-sec7">
+                    <div className=" img1-sec1">
+                        <div><input type="text" placeholder="Your name" className="input-three" /></div>
+                        <div><input type="text" placeholder="Email" className="input-three" /></div>
+                        <div><input type="text" placeholder="Your website (If exists) " className="input-three" /></div>
+                        <div><input type="text" placeholder="How can I help?*" className="input-4" /></div>
                        <div className='flex12-sec7'>
-                       <div class="text1-sec7">Get In Touch</div>
-                        <div class="flex11-sec1">
-                       
+                       <div className="text1-sec7">Get In Touch</div>
+                        <div className="flex11-sec1"> 
                             <div
                                 className={hovered === 1 ? 'hovered' : ' four-button'}
                                 onMouseEnter={() => handleHover(1)}
@@ -68,14 +67,14 @@ const Section7 = () => {
                         </div>
                        </div>
                     </div>
-                    <div class=" text7-sec7">
-                        <p class="text3-sec7">Let's <span class="text4-sec7">talk</span> for</p>
-                        <p class="text3-sec7">Something Special</p>
-                        <div class="text5-sec7">I seek to push the limits of creativity to create high-engaging, user-friendly,
+                    <div className=" text7-sec7">
+                        <p className="text3-sec7">Let's <span class="text4-sec7">talk</span> for</p>
+                        <p className="text3-sec7">Something Special</p>
+                        <div className="text5-sec7">I seek to push the limits of creativity to create high-engaging, user-friendly,
                             and memorable
                             interactive experiences.</div>
-                        <p class="text6-sec7">Youremail@gmail.com</p>
-                        <p class="text6-sec7">1234567890</p>
+                        <p className="text6-sec7">Youremail@gmail.com</p>
+                        <p className="text6-sec7">1234567890</p>
                     </div>
                 </div>
             </div>
