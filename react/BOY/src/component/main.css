@@ -682,7 +682,7 @@
     .grid1-sec5 {
         display: grid;
         grid-template: auto/ repeat(2, 1fr);
-        grid-template-areas: "text picture ";
+        grid-template-areas: " text picture ";
         gap: 40px;
         padding-bottom: 40px;
     }
